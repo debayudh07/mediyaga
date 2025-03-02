@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-2">
           <Plus className="h-6 w-6 text-green-500" />
-          <span className="text-xl font-bold text-green-300">MediVend</span>
+          <span className="text-xl font-bold text-green-300">MediYaga</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">
