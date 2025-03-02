@@ -33,7 +33,9 @@ export default function TechnologyPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button className="bg-green-500 text-black hover:bg-green-400">See It In Action</Button>
+                <Button asChild>
+                  <a href="/aipage" className="bg-green-500 text-black hover:bg-green-400">See It In Action</a>
+                </Button>
                 <Button variant="outline" className="border-green-500 text-green-300 hover:bg-green-950">
                   Technical Specs
                 </Button>
